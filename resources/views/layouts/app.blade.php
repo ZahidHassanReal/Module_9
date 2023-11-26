@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @include('partials.navbar')
+    @include('style.navbar')
 
     <div class="container">
         @yield('content')
     </div>
 
-    @include('partials.footer')
+    @include('style.footer')
 </body>
 </html>
